@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>telytec</title>
+    
+</head>
+<body>
+      <!-- Ceci est le contenu de ma paga -->
+     <!-- mon en-tête du site -->
+    <header>
+        <div class="conteneur">
+            <!-- logo du site web -->
+            <div class="logo">
+                <a href="Accueil.html"><img src="logo.svg" alt="Ceci est le logo du site web" title="Loge du site" id="logo"/></a>
+            </div>
+            <!-- liens des pages du site web       -->
+            <nav>
+            <!-- L'icone de la page Accueil-Robbie -->
+                    <ul class="menu">
+                        <li><a href="Accueil.html">Accueil</a></li>
+                        <li class="submenu-parent"><a href="modele-voiture.html">Nos Services</a>
+                            <ul class="submenu">
+                                <li><a href="">Informatique et numérique</a></li>
+                                <li><a href="">Commerce, vente et distribution</a></li>
+                                <li><a href="">Industrie et production</a></li>
+                                <li><a href="">Industrie et production</a></li>
+                                <li><a href="">Agriculture et agroalimentaire</a></li>
+                                <li><a href="">Santé et médecine</a></li>
+                                <li><a href="">Enseignement et formation</a></li>
+                                <li><a href="">Tourisme, hôtellerie et restauration</a></li>
+                                <li><a href="">Transport et logistique</a></li>
+                                <li><a href="">Art, culture et design</a></li>
+                                <li><a href="">Droit et législation</a></li>
+                                <li><a href="">Environnement et développement durable</a></li>
+                                <li><a href="">Communication, marketing et publicité</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="nos-service.html">Boutque</a></li>
+                        <li> <a href="telytec.html">telytec</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+            </nav>
+            <!-- bouton contact -->
+            <div class="header-right">
+                <a href="#contact" class="btn-contact">Appelé nous</a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="one">
+        <div class="slider">
+            <div class="slides">
+                <!-- Slide 1 -->
+                <div class="slide">              
+                    <img src="img6.jpg" alt="Image 1" class="slide1">
+                 </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="img7.jpg" alt="Image 2" class="slide1">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="img5.jpg" alt="Image 3" class="slide1">
+                </div>
+            </div>
+            <!-- Boutons de navigation -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="contenair1">
+            <div class="contenair_2">
+                <h2>Logiciel & Appplication</h2>
+                <p> vi temporibus illo sed culpa quia maxime quos delectus!</p>
+                <button>Visité</button>
+            </div>
+            <div class="contenair_3">
+                <h2>Reseau</h2>
+                <p>Quidem, molestias error maxime sapiente obcaecati quos aliquid!</p>
+                <button>Visité</button>
+            </div>
+    </section>
+
+
+    <section id="home">
+        <div class="container1">
+            <h2 class="contenair_one">Découvrez nos différent type d'opportunité</h2>
+        </div>
+    </section>
+   <section>
+    <div>
+        <main>
+            <div>
+                <div class="contenair">
+                    <div class="contenair_un">
+                        <div>
+                            <h2>Informatique et numérique <br> & Appplication</h2>
+                        </div>
+                        <div>
+                            <button class="btn">Visité</button>
+                        </div>
+                    </div>
+                    <div class="contenair_deux">
+                        <div>
+                            <h2>Commerce, vente et distribution</h2>
+                        </div>
+                        <div>
+                            <button class="btn">Visité</button>
+                        </div>
+                    </div>
+                    <div class="contenair_trois">
+                        <div>
+                            <h2>Industrie et production</h2>
+                        </div>
+                        <div>
+                            <button class="btn">Visité</button>
+                        </div>
+                    </div>
+                    <div class="contenair_quatre">
+                        <div>
+                            <h2>Transport et logistique</h2>
+                        </div>
+                        <div>
+                            <button class="btn">Visité</button>
+                        </div>
+                    </div>
+                    <div class="contenair_cinq">
+                        <div>
+                            <h2>Environnement et développement durable</h2>
+                        </div>
+                        <div>
+                            <button class="btn">Visité</button>
+                        </div>
+                    </div>
+                    <div class="contenair_six">
+                        <div>
+                            <h2>Communication, marketing et publicité <br> & Appplication</h2>
+                        </div>
+                        <div>
+                            <button class="btn">Visité</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    </section>
+    <section>
+        <div>
+            <p>Nous vous proposons des divers services</p>
+            <a href="#services" class="btn">Voir nos services</a>
+        </div>
+    </section>
+    <section id="about">
+        <main class="one_two">
+            <section>
+                <div class="one2">
+                    <h2>À propos de nous</h2>
+                </div>
+            </section>
+            <section class="one">
+                <div>
+                    <p class="one_1">telytec est une entreprise polyvalente opérant dans divers secteurs d'activité, allant de la technologie à la santé, en passant par l'énergie, la finance et l'agriculture. Sa mission est d'offrir des solutions innovantes et durables pour répondre aux besoins complexes du monde moderne.</p>
+                </div>
+                <div >
+                    <img src="img10.jpg" alt="" class="one3">
+                </div>
+            </section>
+        </main>
+    </section>
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="container">
+            <ul>
+                <li>Informatique et numérique</li>
+                <li>Commerce, vente et distribution</li>
+                <li>Industrie et production</li>
+                <li>Industrie et production</li>
+                <li>Agriculture et agroalimentaire</li>
+            </ul>
+            <ul>
+                <li>Santé et médecine</li>
+                <li>Enseignement et formation</li>
+                <li>Tourisme, hôtellerie et restauration</li>
+                <li>Transport et logistique</li>
+            </ul>
+            <ul>
+                <li>Art, culture et design</li>
+                <li>Droit et législation</li>
+                <li>Environnement et développement durable</li>
+                <li>Communication, marketing et publicité</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <main>
+            <div class="contact">
+                <form action="#" method="post">
+                    <h2>Contactez-nous</h2><br>
+                    <label for="name">Nom:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                    
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+            </div>
+        </main>
+        <main>
+            <div class="location-container">
+                <h2>Notre emplacement</h2>
+                <p>121 Route de l'église, Mont saxonnex, France</p>
+                <div class="map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509398!2d144.95565131547902!3d-37.81732697975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577b2ec4d40c123!2s123%20Main%20St%2C%20City%20%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1602520421429!5m2!1sen!2sus" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </main>   
+    </section>
+    <section>
+        <div class="location-container">
+            <h2>Retrouvez-nous ici</h2>
+            <address>
+                74 130 Mont saxonnex,<br>
+                Haute savoie, France<br>
+                Phone: (33) 753-720-609
+            </address>
+        </div>
+    </section>
+    <section>
+        <div class="slider">
+            <div class="slides">
+                <!-- Radio buttons for navigation -->
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+                <!-- Slide images -->
+                <div class="slide first">
+                    <img src="img 1.jpg" alt="Image 1">
+                </div>
+                <div class="slide">
+                    <img src="img 2.jpg" alt="Image 2">
+                </div>
+                <div class="slide">
+                    <img src="img 3.jpg" alt="Image 3">
+                </div>
+                <div class="slide">
+                    <img src="img 4.jpg" alt="Image 4">
+                </div>
+    
+                <!-- Automatic navigation -->
+                <div class="navigation-auto">
+
+
+        <div class="slider">
+            <div class="slides">
+            <!-- Each div with class "slide" is a slide -->
+                <div class="slide"><img src="imag 1.jpg" alt="Image 1"></div>
+                <div class="slide"><img src="imag 2.jpg" alt="Image 2"></div>
+                <div class="slide"><img src="imag 3.jpg" alt="Image 3"></div>
+                <div class="slide"><img src="imag 4.jpg" alt="Image 4"></div>
+            </div>
+        </div>
+                           
+    </section>
+    <footer>
+        <div class="conteneur1">
+            <!-- loge du site web -->
+            <div class="footer-section">
+                <div class="logo">
+                    <a href="projet.html">
+                        <img src="logo.svg" alt="cici est le logo du site web" title="loge du site" id="logo"/>
+                    </a>
+                </div>
+            </div>           
+            <!-- liens des pages du site web -->
+            <div class="footer-section">
+                <h4>Liens rapides</h4>
+                <ul class="footer-section">
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li><a href="modele-voiture.html">Modéle voiture</a></li>
+                    <li><a href="nos-service.html">service</a></li>
+                    <li> <a href="a-propos.html">telyVoiture</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Adresse: 123 Route de l'église, Mont saxonnex, France</p>
+                <p>Téléphone: (33) 753 720 609</p>
+                <p>Email: boubacartellybarry53@gmail.com</p>
+            </div>
+            <!-- liens des réseaux sociaux -->
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-icons">
+                    <a href="#" class="logo"><img src="instagram.png" alt="instagram" ></a>
+                    <a href="#" class="logo"><img src="facebook.png" alt="facebook"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-bottom1">&copy; 2024 Respiré la technologie.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <nav>
+        
+    </nav>
+</body>
+</html>
